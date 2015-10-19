@@ -19,5 +19,4 @@ namespace ContosoInventoryAPIApp.Models
         public string partDescription { get; set; }
 
     }
-
 }
