@@ -20,13 +20,4 @@ namespace ContosoInventoryAPIApp.Models
 
     }
 
-    public class vProducts
-    {
-        [Key]
-        public int ProductID { get; set; }
-        public string Name { get; set; }
-        public string ProductModel { get; set; }
-        public int CultureID { get; set; }
-        public string Description { get; set; }
-    }
 }
