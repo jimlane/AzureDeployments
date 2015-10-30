@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="InterRoleCommunication" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
+  <WorkerRole name="RoleWithInternalEndpoint" vmsize="Small">
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+    </ConfigurationSettings>
+    <Endpoints>
+      <InternalEndpoint name="internalEndpoint" protocol="tcp" port="7070" />
+    </Endpoints>
+    <LocalResources>
+      <LocalStorage name="LocalStorage1" cleanOnRoleRecycle="false" />
+    </LocalResources>
+  </WorkerRole>
+</ServiceDefinition>
