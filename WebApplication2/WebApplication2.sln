@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{A179C6C7-0866-4127-9E93-6BCCD2EEA835}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{F36F329A-7748-4477-8CBF-3C362DE3702C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{4DA07FEA-87CD-493A-B682-F7B35F132E76}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{A76D2FCC-ECB4-4D9C-B01F-A1D3D6DD4EDA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\WebApplication2.json = PublishScripts\Templates\WebApplication2.json
+		PublishScripts\Templates\WebApplication2.param.dev.json = PublishScripts\Templates\WebApplication2.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A179C6C7-0866-4127-9E93-6BCCD2EEA835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A179C6C7-0866-4127-9E93-6BCCD2EEA835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A179C6C7-0866-4127-9E93-6BCCD2EEA835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A179C6C7-0866-4127-9E93-6BCCD2EEA835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DA07FEA-87CD-493A-B682-F7B35F132E76} = {F36F329A-7748-4477-8CBF-3C362DE3702C}
+		{A76D2FCC-ECB4-4D9C-B01F-A1D3D6DD4EDA} = {F36F329A-7748-4477-8CBF-3C362DE3702C}
+	EndGlobalSection
+EndGlobal
